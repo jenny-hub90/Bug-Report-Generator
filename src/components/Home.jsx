@@ -60,7 +60,7 @@ const Home = () => {
             <h1 className="text-white text-3xl p-6 font-extrabold font-Roboto">Bug Report Generator</h1>
             <h2 className="text-white text-3xl p-2 font-semibold font-Roboto">Don't fix bugs later; fix them now.</h2>
             <div class="flex justify-center">
-                <button class="bg-white text-sky-600 shadow-lg shadow-sky-400/40 ... p-2 rounded-full hover:bg-sky-400 hover:text-white m-10">Bug Generator</button>
+                <button class="bg-white text-sky-600 shadow-lg shadow-sky-400/40 ... p-2 rounded-full hover:bg-sky-400 hover:text-white m-10"><Link to="/BugForm">Bug Generator</Link></button>
             </div>
            </div>
         </div>
