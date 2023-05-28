@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -14,8 +15,9 @@ const Login = () => {
             <span class="block text-xl font-medium text-slate-700"> Password </span>
             <input type="text" value="password" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"/>
             </label>
+            <p className="text-center p-2">Create an account? <Link to="/Register" className="font-bold mb-4 text-sky-600">Register</Link> </p>
             <div class="flex justify-center p-2">
-                <button class="bg-sky-600 hover:bg-sky-400 text-sm rounded-md p-2">Submit</button>
+                <button class="bg-sky-600 hover:bg-sky-400 text-sm rounded-md p-2 text-white font-bold">Submit</button>
             </div>
         </form>
     </div>

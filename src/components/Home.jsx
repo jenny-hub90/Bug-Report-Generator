@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
  return (
@@ -19,6 +20,9 @@ const Home = () => {
           box-shadow: 5px 10px rgb(2,132,199);
           margin: auto;
         }
+        .logo {
+          margin-right: 60rem;
+        }
         footer {
           position: fixed;
           left: 0;
@@ -30,16 +34,20 @@ const Home = () => {
        }
         `}
       </style>
-        <img src="./images/bug.png" alt="Logo" class="w-40 h-auto p-2" />
-        <nav className="flex sm:justify-center space-x-4 p-3">
-            
+        
+        <nav className="flex justify-between items-center sm:justify-center space-x-4 p-3">
+        <div className="logo">
+          <img src="./images/bug.png" alt="Logo" className="w-40 h-auto p-2" />
+        </div>
+          <div className="flex space-x-8">
             {[
-                ['Home', '/Home'],
+                ['Home', '/'],
                 ['Login', '/Login'],
                 ['Register', '/Register'],
             ].map(([title, url]) => (
-            <a href={url} className=" text-white rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-sky-400 hover:text-white">{title}</a>
+            <Link to={url} className=" text-white rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-sky-400 hover:text-white">{title}</Link>
              ))}
+          </div>
         </nav>
         <div class="flex">
            <div class="flex-none w-1/2">
