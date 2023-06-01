@@ -7,17 +7,19 @@ import Home from './components/Home';
 import BugForm from './components/BugForm';
 import BugRecords from './components/BugRecords';
 import BugRecord from './components/BugRecord';
+import AllBugs from './components/AllBugs';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Register" element={<Register />} />
-        <Route path="/BugForm" element={<BugForm />} />
-        <Route path="/BugRecords" element={<BugRecords />} />
-        <Route path="/Record" element={<BugRecord />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/bugForm" element={<BugForm />} />
+        <Route path="/bugRecords" element={<BugRecords />} />
+        <Route path="/record" element={<BugRecord />} />
+        <Route path="/allBugs" element={<AllBugs />} />
       </Routes>
     </Router>
   );
