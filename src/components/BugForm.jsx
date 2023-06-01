@@ -32,7 +32,7 @@ function BugForm() {
        }
         `}
       </style>
-    <nav className="fixed top-0 overflow-hidden flex justify-between items-center sm:justify-center space-x-4 p-3 z-9999">
+    <nav className="fixed top-0 overflow-hidden flex justify-between items-center sm:justify-center space-x-4 p-3">
         <div className="logo">
           <img src="./images/bug.png" alt="Logo" className="w-40 h-auto p-2" />
         </div>

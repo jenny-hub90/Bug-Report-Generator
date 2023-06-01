@@ -6,6 +6,7 @@ import Register from './components/Register';
 import Home from './components/Home';
 import BugForm from './components/BugForm';
 import BugRecords from './components/BugRecords';
+import BugRecord from './components/BugRecord';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Register" element={<Register />} />
         <Route path="/BugForm" element={<BugForm />} />
         <Route path="/BugRecords" element={<BugRecords />} />
+        <Route path="/Record" element={<BugRecord />} />
       </Routes>
     </Router>
   );

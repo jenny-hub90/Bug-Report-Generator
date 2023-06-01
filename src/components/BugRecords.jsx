@@ -94,6 +94,7 @@ const BugRecords = () => {
          
           </div>
       </div>
+      <footer>&copy;copyright@2023 belongs to the author themselves </footer>
     </div>
   )
 }
