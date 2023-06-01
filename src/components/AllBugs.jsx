@@ -72,6 +72,8 @@ const AllBugs = () => {
                 class="border-r px-6 py-4 border-black">Image 2</th>
             <th scope="col"
                 class="border-r px-6 py-4 border-black">Bug Status</th>
+            <th scope="col"
+                class="border-r px-6 py-4 border-black">Functionality</th>
             </tr>
             </thead>
             <tr class="border-b font-medium border-black">
@@ -91,6 +93,13 @@ const AllBugs = () => {
                 class="border-r px-6 py-4 border-black"><img src="./images/bug.png" alt="" class="w-3/4 h-auto m-auto border-2 border-black"/></td>
                 <td scope="col"
                 class="border-r px-6 py-4 border-black">In queue</td>
+                <td scope="col"
+                class="border-r px-6 py-4 border-black"><div class="w-full m-auto flex justify-center p-2">
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400  rounded-full ...">Add</button>
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400 rounded-full ...">Update</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">View</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">Delete</button>
+                </div></td>
             </tr>
             <tr class="border-b font-medium border-black">
                 <td scope="col"
@@ -109,6 +118,13 @@ const AllBugs = () => {
                 class="border-r px-6 py-4 border-black"><img src="./images/bug.png" alt="" class="w-3/4 h-auto m-auto border-2 border-black"/></td>
                 <td scope="col"
                 class="border-r px-6 py-4 border-black">In queue</td>
+                 <td scope="col"
+                class="border-r px-6 py-4 border-black"><div class="w-full m-auto flex justify-center p-2">
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400  rounded-full ...">Add</button>
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400 rounded-full ...">Update</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">View</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">Delete</button>
+                </div></td>
             </tr>
             <tr class="border-b font-medium border-black">
                 <td scope="col"
@@ -127,6 +143,13 @@ const AllBugs = () => {
                 class="border-r px-6 py-4 border-black"><img src="./images/bug.png" alt="" class="w-3/4 h-auto m-auto border-2 border-black"/></td>
                 <td scope="col"
                 class="border-r px-6 py-4 border-black">In queue</td>
+                 <td scope="col"
+                class="border-r px-6 py-4 border-black"><div class="w-full m-auto flex justify-center p-2">
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400  rounded-full ...">Add</button>
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400 rounded-full ...">Update</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">View</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">Delete</button>
+                </div></td>
             </tr>
             <tr class="border-b font-medium border-black">
                 <td scope="col"
@@ -145,6 +168,13 @@ const AllBugs = () => {
                 class="border-r px-6 py-4 border-black"><img src="./images/bug.png" alt="" class="w-3/4 h-auto m-auto border-2 border-black"/></td>
                 <td scope="col"
                 class="border-r px-6 py-4 border-black">In queue</td>
+                 <td scope="col"
+                class="border-r px-6 py-4 border-black"><div class="w-full m-auto flex justify-center p-2">
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400  rounded-full ...">Add</button>
+                <button class="w-24 bg-white text-black m-1 hover:bg-sky-400 rounded-full ...">Update</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">View</button>
+                <button class="w-24 bg-white text-black  m-1 hover:bg-sky-400 rounded-full ...">Delete</button>
+                </div></td>
             </tr>
         </table>
         <footer>&copy;copyright@2023 belongs to the author themselves </footer>
